@@ -25,15 +25,17 @@ The test is conducted on the [SQuAD2.0](https://rajpurkar.github.io/SQuAD-explor
 
 ## Results
 
-| Model                  | ALL   | NoAns | HasAns |  
-|------------------------|-------|-------|--------|  
-|                        | EM    | F1    | EM     | F1     | EM   | F1   |  
-| **Non Linear Adapter** | 30.6  | 31.6  | 54.5   | 54.5   | 4.6  | 6.6  |  
-| **Adapter ResNet**     | 43.8  | 46.1  | 68.3   | 68.3   | 17.1 | 21.8 |  
-| **With Attention**     |       |       |        |        |      |      |  
-| **Attention**          | 33.2  | 40.0  | 56.8   | 56.8   | 7.5  | 21.8 |  
-| **Attention ResNet**   | 45.0  | 49.0  | 53.5   | 53.5   | 35.7 | 43.9 |  
-| **Attention ResNeXt**  | 42.6  | 51.4  | 42.8   | 42.8   | 42.3 | 60.0 |
+| Model                  | ALL   |       | NoAns |       | HasAns |       |
+|------------------------|-------|-------|-------|-------|--------|-------|
+|                        | EM    | F1    | EM    | F1    | EM     | F1    |
+| **Non Linear**         |       |       |       |       |        |       |
+| Adapter               | 30.6  | 31.6  | 54.5  | 54.5  | 4.6    | 6.6   |
+| Adapter ResNet        | **43.8**  | **46.1**  | **68.3** | **68.3**  | **17.1**   | **21.8**  |
+| **With Attention**     |       |       |       |       |        |       |
+| Attention             | 33.2  | 40.0  | **56.8**  | **56.8**  | 7.5    | 21.8  |
+| Attention ResNet      | 45.0  | 49.0  | 53.5  | 53.5  | 35.7   | 43.9  |
+| Attention ResNeXt     | **42.6**  | **51.4**  | 42.8  | 42.8  | **42.3**   | **60.0**  |
+
 
 ## Full details
 
