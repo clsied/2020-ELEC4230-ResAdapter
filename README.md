@@ -10,7 +10,7 @@ pip install transformers pytorch matplotlib
 
 ## Overview
 
-This project explores the concept of Transfer Learning for NLP by using adapters to reduce the computational and storage costs of fine-tuning large language models. Instead of fine-tuning the entire model, only the adapter parameters are trained, while the pretrained model parameters remain frozen. We introduce **ResAdapters**, a novel approach that applies residual networks to adapters, improving their effectiveness without adding extra parameters.
+This project explores the concept of Transfer Learning for NLP by using adapters to reduce the computational and storage costs of fine-tuning large language models. Instead of fine-tuning the entire model, only the adapter parameters are trained, while the pretrained model parameters remain frozen. We introduce **ResAdapters**, a novel approach that applies residual networks to adapters.
 
 ### Our ResNeXt Adapter with BERT
 
